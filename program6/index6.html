@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <style>
+        .container{
+            background-color: blueviolet;
+            height: 250px;
+            width: 250px;
+            border-radius: 50px;
+            border: 2px solid black;
+            padding: 5px;
+            box-shadow: 9px ;
+        }
+        .complete{
+            text-decoration: line-through;
+            color: brown;
+        }
+        button.remove{
+            background-color: aqua;
+            margin-left: 10px;
+            color: aliceblue;
+            padding: 4px 8px;
+            cursor: pointer;
+        }
+        .input{
+            border: 2px solid black;
+            text-align: center;
+            color: black
+
+        }
+    </style>
+</head>
+<body>
+    <div class= "container">
+        <h4>TO DO LIST APPLICATION</h4>
+        <input type="text" placeholder="enter a task" id="input"><br>
+        <button onclick="myfunc()" class="remove">ADD TASK</button>
+        <ul id="output"></ul>
+    </div>
+    
+</body>
+
+<script src="./script6.js">
+
+</script>
+</html>
